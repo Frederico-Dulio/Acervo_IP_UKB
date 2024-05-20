@@ -35,4 +35,9 @@ class Livro extends Model
     {
         return $this->belongsTo(Categoria::class);
     }
+
+    public function foto()
+    {
+        return $this->hasMany(Foto::class);
+    }
 }
