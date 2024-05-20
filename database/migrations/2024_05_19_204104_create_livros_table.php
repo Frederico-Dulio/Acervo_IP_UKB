@@ -24,6 +24,8 @@ class CreateLivrosTable extends Migration
                 ->cascadeOnDelete();
             $table->date('ano_publicacao');
             $table->string('isbn');
+            $table->integer('pagina')
+                ->nullable();
             $table->integer('quantidade_total')
                 ->nullable();
             $table->integer('quantidade_disponivel')

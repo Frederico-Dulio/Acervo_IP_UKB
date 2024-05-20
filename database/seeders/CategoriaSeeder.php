@@ -24,5 +24,6 @@ class CategoriaSeeder extends Seeder
         Categoria::create(['nome_categoria'=>'Infantil']);
         Categoria::create(['nome_categoria'=>'Acadêmicos e Técnicos']);
         Categoria::create(['nome_categoria'=>'Outros Gêneros']);
+
     }
 }
